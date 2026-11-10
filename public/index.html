@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R7 • Key Generator</title><link rel="stylesheet" href="/style.css">
+</head>
+<body><main class="shell">
+<header><div class="logo">R7</div><div><p class="eyebrow">ACCESS SYSTEM</p><h1>KEY GENERATOR</h1></div></header>
+<section class="panel">
+<div class="topline"><span class="live-dot"></span> SISTEMA ONLINE <span class="tag">24H KEY</span></div>
+<h2 id="headline">Gere sua KEY de acesso</h2>
+<p class="muted" id="description">Complete as quatro missões. Cada missão exige uma espera de 2 minutos.</p>
+<div class="progress"><div id="progressBar"></div></div>
+<div class="steps" id="steps">
+<div class="step active"><span>01</span><small>MISSÃO 1</small></div><div class="step"><span>02</span><small>MISSÃO 2</small></div><div class="step"><span>03</span><small>MISSÃO 3</small></div><div class="step"><span>04</span><small>MISSÃO 4</small></div>
+</div>
+<div class="timer-box"><p id="statusLabel">PRONTO PARA COMEÇAR</p><div class="timer" id="timer">02:00</div><p class="muted" id="timerHint">O tempo é confirmado pelo servidor.</p></div>
+<button id="mainButton">COMEÇAR MISSÕES <span>→</span></button><p class="error" id="error"></p>
+<div class="result hidden" id="result"><p class="eyebrow">SUA KEY FOI GERADA</p><div class="key" id="keyText"></div><button class="copy" id="copyButton">COPIAR KEY</button><p class="muted" id="expiry"></p></div>
+</section>
+<section class="validate"><h3>Validar uma KEY</h3><div class="validate-row"><input id="validateInput" placeholder="R7-..." autocomplete="off"><button id="validateButton">VALIDAR</button></div><p id="validateResult" class="muted"></p></section>
+<footer>R7 ACCESS SYSTEM <span>•</span> Keys válidas por 24 horas após a geração</footer>
+</main><script src="/app.js"></script></body></html>

@@ -1,0 +1,19 @@
+{
+  "name": "r7-key-generator-vercel",
+  "version": "2.0.0",
+  "private": true,
+  "description": "R7 Key Generator - Vercel + Supabase",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "express": "^4.21.2"
+  }
+}
